@@ -72,7 +72,8 @@ public class UserEndPoints {
 	
 		
 		.when()
-		.put(Routes.delete_url);
+		.delete(Routes.delete_url);
+	
 		
 		return response;
 	}
